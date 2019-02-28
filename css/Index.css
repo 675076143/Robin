@@ -1,0 +1,560 @@
+*{
+	font-family: "微软雅黑";
+	margin:0 auto;
+}
+.contectMe{
+	width: 100%;
+	height: 150px;
+	transition: all 1s;
+	background-color: lightgray;
+	text-align: center;
+	opacity: 0;
+}
+.contectMe:hover{
+	background-color: #000F1C;
+	color: white;	
+}
+.divHead{
+	background-color: white;
+}
+.logoImg{
+	margin-left: 6%;
+}
+.aLogin{
+	float: right;
+	margin-right: 10px;
+}
+.aShoppingList{
+	float: right;
+}
+.headImage{
+	position: relative;
+	z-index: 0;
+}
+.divBody{	
+	position: relative;
+	z-index: 0;
+	text-align: center;
+	margin: auto 0 ;
+	height: 1700px;
+}
+.divMain{
+	position: relative;
+	text-align: center;
+	width: 100%;
+	height: 400px;
+	display: inline-block;
+}
+.ulBody{
+	list-style: none;
+}
+.liBody1,.liBody1AI{
+	background-repeat: no-repeat;
+	float: left;
+	width: 23%;
+	height: 300px;
+	margin-left: 0;
+	background-color: white;
+	opacity: 0.9;
+	transition: box-shadow 1s ease 0s;
+	transition: transform 1s ease 0s;
+	text-align: left;
+	box-shadow:3px 3px 8px black;
+}
+.liBody2,.liBody3,.liBody4,.liBody2AI,.liBody3AI,.liBody4AI{
+	text-align: left;
+	float: left;
+	width: 23%;
+	height: 300px;
+	margin-left: 1%;
+	background-color: white;
+	opacity: 0.9;
+	transition: box-shadow 1s ease 0s;
+	transition: transform 1s ease 0s;
+	box-shadow:3px 3px 8px black;
+}
+.liBody1:hover,.liBody2:hover,.liBody3:hover,.liBody4:hover{
+	opacity: 1;
+	box-shadow: 10px 10px 20px yellowgreen;
+}
+.liBody1AI:hover,.liBody2AI:hover,.liBody3AI:hover,.liBody4AI:hover {
+	opacity: 1;
+	box-shadow: 10px 10px 20px yellowgreen;
+	transform: rotate(360deg);
+}
+
+.divBodyContent{
+	width: 90%;
+	display: inline-block;
+}
+.audioMusic{
+	width: 70px;
+}
+.divNav{
+	height: 70px;
+	width: 100%;
+	color: gray;
+	margin-top: -20px;
+	background-color: black;
+	position: absolute;
+	z-index: 999;
+}
+.navUl{
+	display: inline-block;
+	margin-top: 0px;
+	margin-left: 120px;
+}
+.navLi{
+	float: left;
+	width: 90px;	
+	background-color: black;
+	display: inline-block;
+	height: 68px;
+	text-align: center;	
+}
+.navLiLanguage{
+	float: left;
+	width: 200px;	
+	background-color: black;
+	display: inline-block;
+	height: 68px;
+	text-align: center;	
+}
+.navLiLanguage a{
+	text-decoration: none;
+	color: grey;
+}
+.navLiLanguage a:hover{
+	color: white;
+}
+.navLiLanguage:hover{
+	cursor: pointer;
+	color: white;
+}
+.navLiMusic{
+	float: left;
+	width: 90px;	
+	background-color: black;
+	display: inline-block;
+	height: 68px;
+	text-align: center;	
+}
+.navLiMusicDiv{
+	background-color: green;
+	height: 25px;
+	width: 25px;
+	border-radius: 15px;
+	transition: all ease 0.3s;
+}
+.navLiMusicDiv:hover{
+	width: 50px;
+}
+.navLiMusicDiv:visited{
+	background-color: limegreen;
+}
+.navLiMusic:hover{
+	cursor: pointer;
+	color: white;
+}
+.navLi:hover {
+	color: white;
+}
+.navLi:hover .navOl{
+	background-color: white;
+	color: gray;
+	display: inline-block;
+	opacity: 0.8;
+	 
+}
+.navOl{
+	display: none;
+	background-color: white;
+	margin-top: 28px;
+	list-style: none;
+	cursor: pointer;
+}
+.navAsideLi{
+	width: 200px;
+	margin-left: -40px;
+	text-align: left;
+	
+}
+.navAsideLi:hover{
+	color: black;
+}
+.divAsideFont{
+	margin-left: 20px;
+}
+.footerContent{
+	background-color: white;
+}
+.footerFont{
+	font-size: 15px;
+	color: grey;
+}
+
+.footerFont2{
+	font-size: 10px;
+	color: grey;
+}
+.divFooter{
+	margin-left: 6%;
+}
+
+
+.divMain4{	
+	position: relative;
+	text-align: center;
+	width: 100%;
+	height: 500px;
+	display: inline-block;
+	transition: all 1s;
+	background-color: lightgray;
+}
+
+.divMain4 p{
+	margin-top: 10px;
+	text-align: center;
+	color: #db0067;
+}
+.divMain4:hover{
+	background-color: #00162A;
+	color: white;
+}
+.projectHeadFont{
+	text-shadow: 5px 5px 10px black;
+}
+.divMain4:hover .projectHeadFont{
+	transition: all 1s;
+	text-shadow: 5px 5px 10px white;
+	color: white;
+}
+.divMain4 ul{
+	margin:70px auto 0;
+	width: 100%;
+	margin-left: 150px;
+}
+.divMain4 ul li:nth-child(1){
+	width: 200px;
+	height: 300px;
+	float: left;
+	margin-left:0;
+	position: relative;
+	overflow: hidden;
+}
+.divMain4 ul li{
+	margin-top: -50px;
+	text-align: left;
+	width: 200px;
+	height: 300px;
+	float: left;
+	margin-left:1%;
+	position: relative;
+	overflow: hidden;
+	opacity: 0.9;
+	transition: box-shadow 0.3s ease 0s;
+	box-shadow:3px 3px 8px black;
+}
+.divMain4 ul li:hover{
+	opacity: 1;
+	box-shadow: 10px 10px 20px lightgrey;
+}
+.divMain4 ul li hgroup{
+	position: absolute;
+	left:0;
+	top:-300px;
+	width:100%;
+	height:300px;
+	background: rgba(0,0,0,0.5);
+	transition:all 0.3s ease-in 0s;
+}
+.divMain4 ul li:hover hgroup{	
+	position: absolute;
+	left:0;
+	top:0;
+}
+.divMain4 ul li hgroup h2:nth-child(1){
+	font-size: 22px;
+	text-align: center;
+	color:#fff;
+	font-weight: normal;
+	margin-top: 58px;
+}
+.divMain4 ul li hgroup h2:nth-child(2){
+	font-size: 14px;
+	text-align: center;
+	color:#fff;
+	font-weight: normal;
+	margin-top: 15px;
+}
+.divMain4 ul li hgroup h2:nth-child(3){
+	width:26px;
+	height: 26px;
+	margin-left: 120px;
+	margin-top: 15px;
+}
+.divMain4 ul li hgroup h2:nth-child(4){
+	width:75px;
+	height: 22px;
+	margin-left: 95px;
+	margin-top: 25px;
+} 
+
+
+.fan{
+	position: absolute;
+	margin-top: -150px;
+	margin-left: -100px;
+	z-index: 999;
+	-webkit-backface-visibility:hidden;
+	transition:all 1s ease-in 0s;
+	-webkit-transform:rotateX(-180deg);
+}
+.divMain ul li:hover .fan{
+ 	-webkit-transform:rotateX(0deg);
+ }
+ 
+ .fanRight{
+ 	position: absolute;
+ 	margin-top: -150px;
+ 	margin-left: -600px;
+ 	z-index: 999;
+ 	-webkit-backface-visibility:hidden;
+ 	transition:all 1s ease-in 0s;
+ 	-webkit-transform:rotateX(-180deg);
+ }
+ .divMain ul li:hover .fanRight{
+  	-webkit-transform:rotateX(0deg);
+  }
+ .divMain ul li:hover .zheng{
+ 	-webkit-transform:rotateX(180deg);
+ }
+ .divTail{
+	 width: 100%;
+	 height: 350px;
+	 background-color: black;
+ }
+.divTailUl{
+	color: yellowgreen;
+	float: left;
+	width: 18%;
+	margin-left: 6%;
+	margin-top: 30px;
+}
+.divTailLi:hover{
+	color: greenyellow;
+	cursor: pointer;
+}
+
+
+
+
+.divRobin{
+	background-color: lightgrey;
+	height: 300px;
+	transition: all 1s;
+}
+.divRobin:hover{
+	background-color: #000F1C;
+	color: white;
+}
+.RobinImg{
+	float: left;
+	border-radius: 15px;
+	margin-left: 190px;
+	transition: box-shadow 0.3s ease 0s;
+	box-shadow:5px 5px 8px black;
+}
+.RobinImg:hover{
+	box-decoration-break: disabled;
+	opacity: 1;
+	box-shadow: 10px 10px 20px forestgreen;
+}
+.divRobinContent{
+	float: left;
+	margin-left: 30px;
+}
+.RobinJohn{
+	font-size: 50px;
+	font-weight: 900;
+	text-shadow: 5px 5px 8px white;
+	transition: all 1s ease 0s;
+	-webkit-text-stroke: 1px black;  
+}
+.RobinJohn:hover{
+	color: whitesmoke;
+	text-shadow: 10px 10px 20px black;
+}
+.siteCollection{
+	clear: left;
+	height: 300px;
+	background-color: lightgray;
+	transition: all 1s;
+}
+.siteCollection:hover{
+	background-color: #00162A;
+}
+.siteCollectionFont{
+	-webkit-text-stroke: 1px black; 
+	margin-left: 190px;
+	color: white;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.CPU{
+	margin-left: 190px;
+	text-decoration: none;
+	display: block;
+	float: left;
+	height: 100px;
+	width: 200px;
+	background-color: white;
+	background-size:400px 60px;
+	opacity: 0.6;
+	
+}
+.CPU:hover{
+	animation:move 2s ease;
+	background-image:linear-gradient(90deg,white 0%, royalblue 100%);
+}
+
+@keyframes move {
+	0% {
+		
+	}100% {
+	background-position:200px 0;
+	}
+}
+.GPU{
+	margin-left: 20px;
+	text-decoration: none;
+	float: left;
+	background-color: white;
+	display: block;
+	height: 100px;
+	width: 200px;
+	background-size:400px 60px;
+	opacity: 0.6;
+}
+.GPU:hover{
+	animation:move 2s ease;
+	background-image:linear-gradient(90deg,white 0%, yellowgreen 100%);
+}
+
+.CODE{
+	margin-left: 20px;
+	text-decoration: none;
+	float: left;
+	background-color: white;
+	display: block;
+	height: 100px;
+	width: 200px;
+	background-size:400px 60px;
+	opacity: 0.6;
+}
+.CODE:hover{
+	background-image:linear-gradient(90deg,white 0%, orangered 100%);
+	animation:move 2s ease;
+}
+
+.COOLOR{
+	margin-left: 20px;
+	text-decoration: none;
+	float: left;
+	background-color: white;
+	display: block;
+	height: 100px;
+	width: 200px;
+	background-size:400px 60px;
+	opacity: 0.6;
+	
+}
+.COOLOR:hover{
+	animation:move 2s ease;
+	background-image:linear-gradient(90deg,white 0%,deeppink 100%);
+}
+
+.project{
+	background-color: lightgray;
+	height: 300px;
+	transition: all 1s;
+}
+.project:hover{
+	background-color: #000F1C;
+}
+.projectFont{	
+	position: absolute;
+	left: 750px;
+	-webkit-text-stroke: 1px black; 
+	margin-left: 190px;
+	color: white;
+	font-size: 30px;
+	font-weight: 900;
+}
+.aDownload{
+	text-decoration: none;
+	background-color: white;
+	color: forestgreen;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 5px;
+	display: block;
+	width: 100px;
+	opacity: 0.5;
+}
+.application{
+	clear: left;
+	height: 500px;
+	background-color: lightgray;
+	transition: all 1s;
+}
+.application:hover{
+	background-color: #00162A;
+}
+.application01,.application02{
+	margin-left: 190px;
+	text-decoration: none;
+	float: left;
+	background-color: white;
+	display: block;
+	height: 200px;
+	width: 200px;
+	background-size:400px 60px;
+	border-radius: 100px;
+	transition: all 1s;
+}
+.application01:hover{
+	width: 400px;
+}
+.application02:hover{
+	width: 400px;
+}
+
+.applicationFont{
+	display: block;
+	margin-top: -140px;
+	margin-left: 220px;
+	opacity: 0;
+	transition: all ease 1s;
+}
+.application01:hover .applicationFont{
+	opacity: 1;
+}
+.application02:hover .applicationFont{
+	opacity: 1;
+}
+.aDownloadApplication{
+	float: left;
+	text-decoration: none;
+	background-color: white;
+	color: forestgreen;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 5px;
+	display: block;
+	width: 50px;
+}
+
+	
+
