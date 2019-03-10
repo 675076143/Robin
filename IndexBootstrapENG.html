@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet"  type="text/css"  href="css/Index.css"/>	
+	<head>
+		<meta charset="utf-8">
+		<title>RobinJohn</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+		<br />
+		<nav class="nav navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<!--在移动端的时候导航条折叠起来，三横的样式出现，点击该样式可以显示或隐藏导航条上的内容-->            
+					<button class="navbar-toggle" data-toggle="collapse" data-target="#menu">                
+					<span class="icon-bar"></span>                
+					<span class="icon-bar"></span>                
+					<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand"><img src="images/RobinJohn.jpg" width="30px" style="border-radius: 15px;"/></a>
+				</div>					          
+				<div id="menu" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">                
+						<li class="active">
+							<a href="#">MAIN</a>
+						</li>                
+						<li>
+							<li><a href="#">ALBUM</a></li>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								PROJECTS
+								<span class="caret"></span>
+							</a>                
+							<ul class="dropdown-menu">                    
+								<li></li>
+								<li><a href="#">HTML5</a></li>
+								<li><a href="#">ASP.NET</a></li>
+								<li><a href="#">ADO.NET</a></li>
+								<li><a href="#">JSP</a></li>
+								<li><a href="#">JAVA</a></li>
+								<li><a href="#">C</a></li>
+								<li><a href="#">C++</a></li>
+								<li><a href="#">C#</a></li>
+							</ul>
+						</li>
+						 <li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								APPS
+								<span class="caret"></span>
+							</a>                
+							<ul class="dropdown-menu">                    
+								<li></li>
+								<li><a href="#">Performance Diagram</a></li>
+								<li><a href="#">MinecraftServer</a></li>
+							</ul>
+						 </li> 
+						 <li>
+							<li><a href="#">FILES</a></li>
+						 </li> 
+						<li>
+							<li><a href="#" onClick="show()" style="cursor: pointer;">Contect me</a></li>
+						</li>
+						<li>
+							<li><a href="IndexBootstrap.html">Switch to Chinese</a></li>
+						</li>
+						<li>
+							<li><a href="#"><div id="Music" class="navLiMusicDiv" onclick="setMusic()">&#9835</div></a></li>
+						</li>
+						<!--下拉菜单功能的实现-->                
+						<li class="dropdown">
+                
+						</li>            
+					</ul>        
+				</div>    
+			</div>
+		</nav>
+		
+	</head>
+	<body>
+		
+		<div id="contectMe" class="row contectMe">
+			<br /><br /><br />Mail:	Robin675076143@hotmail.com
+			<br />QQ:	675076143
+			<br />Skype:	Robin.John6750			
+		</div>
+		
+		<div class="row divRobin">
+			<br /><br /><br />
+			<div class="col-xs-1"></div>
+			<div class="col-xs-2">
+				<img src="images/RobinJohn.jpg" class="RobinImg"/>
+				<br /><br /><br /><br /><br />
+			</div>
+			<div class="col-xs-5 divRobinContent" style="margin-left: 0;">
+				<font class="RobinJohn">RobinJohn</font><br /><br />
+				Hello, I'm Robin.<br />
+				A College students which is studying software technology.<br />
+				The site was created out of interest, and for the convenience of the project.
+			</div>
+			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+		</div>
+		
+		<div class="row siteCollection">
+			<br />
+			<div class="row">
+				<div class="col-xs-1"></div>
+				<font class="col-xs-4 siteCollectionFont">●Website Collections</font>
+			</div>
+			<br />
+			<br /><br /><br />
+			<a class="col-xs-1"></a>
+			<a class="col-xs-2 CPU" href="http://cdn.malu.me/cpu/">
+				<br />&nbsp;&nbsp;CPU
+				<br />&nbsp;&nbsp;Performance Diagram
+				<br />&nbsp;&nbsp;cdn.malu.me/cpu
+			</a>
+			<a class="col-xs-2 GPU" href="http://cdn.malu.me/gpu/">
+				<br />&nbsp;&nbsp;GPU
+				<br />&nbsp;&nbsp;Performance Diagram
+				<br />&nbsp;&nbsp;cdn.malu.me/cpu
+			</a>
+			<a class="col-xs-2 CODE" href="https://tool.lu/coderunner/">
+				<br />&nbsp;&nbsp;Online Coding
+				<br />&nbsp;&nbsp;tool.lu/coderunner
+			</a>
+			<a class="col-xs-2 COOLOR"href="https://coolors.co/">
+				<br />&nbsp;&nbsp;Color
+				<br />&nbsp;&nbsp;Scheme Generator
+				<br />&nbsp;&nbsp;coolors.co
+			</a>
+			<br /><br /><br /><br /><br /><br /><br /><br /><br />
+		</div>
+			
+		<div class="row divMain4" style="width: 100%;">
+			<br />
+			<div class="row">
+				<div class="col-xs-8"></div>
+				<font class="col-xs-4 projectFont">●Projects</font>
+			</div>
+			<br /><br /><br />
+			<ul class="row ulBody">
+				<div class="col-xs-1"></div>
+				<li class="col-xs-2">
+					<img src="images/Java.jpg"  height="200px" />
+					<div style="width: 90%;">
+						<font class="projectHeadFont" color="black" size="4">Java DataBase Application</font>
+						<br />
+						Java is the best langua--ge in the world.jpg
+					</div>
+					<hgroup>
+						<h2>MySQL</h2>
+						<h2>crud<br /><br />
+						<a class="aDownload" href="files/Java_FINAL.rar" download="Java_FINAL.rar">Download</a>
+						</h2>
+						<h2></h2>
+						<h2></h2>
+					</hgroup>
+				</li>
+				<li class="col-xs-2" style="margin-left: 20px;">
+					<img src="images/ASP.NET.png" width="100%" height="200px" />
+					<div style="width: 90%;">
+						<font class="projectHeadFont" color="black" size="4">Shopping Website</font>
+						<br />
+						Based on ASP.NET
+					</div>
+					<hgroup>
+						<h2>Wake Up!</h2>
+						<h2>BUG hasn't been fixed yet!<br />After submitting the order<br />Order Display Status Error<br />F**king Magic<br /><br />
+						<a class="aDownload" href="files/ASP.NET_FINAL.rar" download="ASP.NET_FINAL.rar">下 载</a>
+						</h2>
+						<h2></h2>
+						<h2></h2>
+					</hgroup>
+				</li>
+				<li class="col-xs-2" style="margin-left: 20px;">
+					<img src="images/Nvidia.png" width="100%" height="200px" />
+					<div style="width: 90%;">
+						<font class="projectHeadFont" color="black" size="4">Imitate Nvidia</font>
+						<br />
+						HTML5 Final Project
+					</div>
+					<hgroup>
+						<h2>HTML5</h2>
+						<h2>stylesheet<br />
+						text/css
+						<br /><br />
+						<a class="aDownload" href="files/HTML5_FINAL.rar" download="HTML5_FINAL.rar">Download</a>
+						</h2>
+						<h2></h2>
+						<h2></h2>
+					</hgroup>
+				</li>
+				<li class="col-xs-2" style="margin-left: 20px;">
+					<img src="images/Origin.png" width="100%" height="200px" />
+					<div style="width: 90%;">
+						<font class="projectHeadFont" color="black" size="4">Imitate Origin</font>
+						<br />
+						Based on Java Server Page
+					</div>
+					<hgroup>
+						<h2>MySql</h2>
+						<h2>crud<br /><br />
+						<a class="aDownload" href="files/Origin.rar" download="Origin.rar">Download</a>
+						</h2>
+						<h2></h2>
+						<h2></h2>
+					</hgroup>
+				</li>
+				
+			</ul>
+			<br /><br /><br />
+		</div>
+		
+		<div class="row application">
+			<br />
+			<div class="row">
+				<div class="col-xs-1"></div>
+				<font class="col-xs-4 siteCollectionFont">●Applications</font>
+			</div>
+			<br /><br /><br />
+			<div class="col-xs-1"></div>
+			<div class="col-xs-2 application01">
+				<img src="images/Minecraft.png" width="200px" style="border-radius: 100px;margin-left: -15px;" />
+				<font class="applicationFont">
+					MinecraftServer<br />
+					ver 1.13.2<br />
+					<a class="aDownloadApplication" href="files/MinecraftServer1.13.2.rar" download="MinecraftServer1.13.2.rar">下 载</a>
+				</font>
+			</div>
+			
+			<div class="col-xs-2 application01" style="margin-left: 20px!important;">
+				<img src="images/kaying.png" width="200px" height="200px" style="border-radius: 100px;margin-left: -15px;" />
+				<font class="applicationFont">
+					KaYing Tools<br />
+					ver 2.93<br />
+					<a class="aDownloadApplication" href="files/kaying2.93.zip" download="kaying2.93.zip">Download</a>
+				</font>
+			</div>
+			
+			<div class="col-xs-2 application02" style="margin-left: 20px!important;">
+				<img src="images/wenhao.jpg" width="200px" height="200px" style="border-radius: 100px;margin-left: -15px;" />
+				<font class="applicationFont">Developing。。。</font>
+			</div>
+			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+		</div>		
+	</body>
+	
+	<script type="text/javascript" src="javascript/Index.js"></script>
+	
+	    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+	<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+</html>
